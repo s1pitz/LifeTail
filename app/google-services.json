@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1099152298353",
+    "project_id": "lifetail-a9a75",
+    "storage_bucket": "lifetail-a9a75.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1099152298353:android:6922899a6dca22ccd8e6d0",
+        "android_client_info": {
+          "package_name": "com.example.lifetail"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJmZjbJr8E1e3VCw8riRIh4-PZGvs-0SM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
