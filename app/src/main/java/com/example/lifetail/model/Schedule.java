@@ -3,6 +3,7 @@ package com.example.lifetail.model;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import com.example.lifetail.helpers.StringUtils;
 
 public class Schedule {
 
@@ -65,7 +66,7 @@ public class Schedule {
         } else if (date.equals(LocalDate.now().plusDays(1))) {
             return "Tomorrow";
         } else {
-            return date.getDayOfWeek().toString();
+            return StringUtils.toTitleCaseDay(date.getDayOfWeek().toString());
         }
     }
 
@@ -81,7 +82,7 @@ public class Schedule {
         } else if (date.equals(LocalDate.now().plusDays(1))) {
             return ", from " + startFormatted + " to " + endFormatted;
         } else {
-            return ", " + date.format(dateFormatter) + ", " + startFormatted + " - " + endFormatted;
+            return ", " + (date.format(dateFormatter)) + ", " + startFormatted + " - " + endFormatted;
         }
     }
 }

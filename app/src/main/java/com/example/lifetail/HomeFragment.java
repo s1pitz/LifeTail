@@ -68,7 +68,11 @@ public class HomeFragment extends Fragment {
         Schedule scheduleTomorrow = new Schedule("S002", LocalDate.of(2024, 12, 8), LocalTime.of(10, 0), LocalTime.of(18, 0), 5);
         Appointment appointmentTomorrow = new Appointment("A002", user, pet, doctor, clinic, scheduleTomorrow, "Routine check-up");
 
+        Schedule schedule2 = new Schedule("S002", LocalDate.of(2024, 12, 12), LocalTime.of(8, 0), LocalTime.of(12, 0), 5);
+        Appointment appointment2= new Appointment("A002", user, pet, doctor, clinic, schedule2, "Check-up Vaccination");
+
         appointments.add(appointment);
         appointments.add(appointmentTomorrow);
+        appointments.add(appointment2);
     }
 }

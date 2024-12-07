@@ -51,8 +51,6 @@ public class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.
         String petName = appointmentList.get(position).getPet().getName();
         String clinicName = appointmentList.get(position).getClinic().getName();
         LocalDate date = appointmentList.get(position).getSchedule().getDate();
-        LocalTime startTime = appointmentList.get(position).getSchedule().getStartTime();
-        LocalTime endTime = appointmentList.get(position).getSchedule().getEndTime();
         String day = appointmentList.get(position).getSchedule().getDay();
         int age = appointmentList.get(position).getPet().getAge();
         String scheduleText = appointmentList.get(position).getSchedule().getScheduleText();
@@ -73,8 +71,8 @@ public class AppointmentAdapter extends RecyclerView.Adapter<AppointmentAdapter.
             holder.itemContainerCL.setBackground(activityContext.getResources().getDrawable(R.drawable.bg_appointment_item_tomorrow));
             holder.itemDateTV.setTextColor(activityContext.getResources().getColor(R.color.brown));
 
-        } else {
-            // Apply default styles for other appointments
+        }
+        else {
             holder.itemContainerCL.setBackground(activityContext.getResources().getDrawable(R.drawable.bg_appointment_item_else));
         }
     }
