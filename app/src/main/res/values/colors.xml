@@ -4,5 +4,10 @@
     <color name="white">#FFF6F7FF</color>
     <color name="gray">#FFCDD4E0</color>
     <color name="gray_50">#80CDD4E0</color>
+    <color name="gray_16">#29CDD4E0</color>
     <color name="green">#FF066464</color>
+    <color name="green_80">#CC066464</color>
+    <color name="transparent">#00000000</color>
+    <color name="placeholder_text">#FF232323</color>
+    <color name="placeholder_text_">#8C232323</color>
 </resources>
