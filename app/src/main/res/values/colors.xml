@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
+    <color name="black">#FF232323</color>
     <color name="white">#FFF6F7FF</color>
     <color name="gray">#FFCDD4E0</color>
     <color name="gray_50">#80CDD4E0</color>
@@ -10,4 +10,9 @@
     <color name="transparent">#00000000</color>
     <color name="placeholder_text">#FF232323</color>
     <color name="placeholder_text_">#8C232323</color>
+    <color name="navbar_black">#FF001018</color>
+    <color name="navbar_white">#FFEFF1FA</color>
+    <color name="black_65">#A6232323</color>
+    <color name="black_80">#CC232323</color>
+    <color name="brown">#FFB07311</color>
 </resources>
